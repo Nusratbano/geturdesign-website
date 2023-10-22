@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Designing Logos.">
+        <title>Designing Logos</title>
+        <Script src="contact.js"></Script>
+        <link rel="stylesheet" type="text/css" href="general.css">
+        <link rel="stylesheet" type="text/css" href="header.css">
+        <link rel="stylesheet" type="text/css" href="contact.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+    </head>
+
+<body>
+
+    <header>
+        <h1>Designing Logos</h1>
+        <label for="hamburger_checkbox"> 
+            <img class="hamburger_image" src="hamburger_icon.svg" alt="Expand and collapse menu.">
+        </label>
+        <input id="hamburger_checkbox" type="checkbox">
+       
+        
+
+        <nav>
+            <a href="index.html">Index</a>
+            <a href="photos.html">Photos</a>
+            <a href="about.html">About</a>
+            <a class="active_nav" href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact_form">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="mobile">Mobile:</label><br>
+            <input type="text" id="mobile" name="mobile"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input type="submit" value="Submit" onclick ="insertInto();"><br>
+        <input type="reset" value="Reset">
+    </form>
+    </section>
+
+
+
+    <table id="myTable">
+        <tr>
+        <th>First name</th>
+        <th>Last name</th> 
+        <th>Email</th>
+        <th>Mobile</th>
+        <th>Message</th>
+        </tr>
+    </table>
+        
+
+    <footer>
+        <img alt="Creative Commons License" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" />
+        <br>
+        Designing Logos by Nusrat is Licensed under a 
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+    </footer>
+    
+</body>
+</html>

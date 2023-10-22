@@ -1,0 +1,37 @@
+/* Mobile First view: */
+
+footer {
+	/* position: fixed; */
+	background:white;
+	padding: 30px;
+	text-align: center;
+	width: 100%;
+}
+
+/* Color the text of links in the footer black */
+footer a {
+color: black;	
+}
+
+
+/* Change the color of the links in the footer on hover using mouse */
+footer a:hover {
+	background-color: black;
+	color:grey;
+	padding: 2px;
+}
+
+/* change the color of links in the footer on using tab button */
+footer a:focus {
+	background-color: black;
+	color: gray;
+	padding: 2px;
+}
+
+/* Change the color of links in the footer on using tab button */
+        footer a:focus {
+            background-color: black;
+            color: gray;
+            padding: 2px;
+        }
+        
